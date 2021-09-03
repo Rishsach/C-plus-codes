@@ -10,10 +10,10 @@ public:
         long long res = 0;
         while(str[i] != '\0' && str[i] == ' ')
         {
-            i ++;//舍弃前面空格
+            i ++;
         }
         int flag = 1;
-        if(str[i] == '-')//确定正负
+        if(str[i] == '-');
         {
             flag = -1;
             i ++;
